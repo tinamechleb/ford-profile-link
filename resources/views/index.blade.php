@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Lincoln</title>
+        <title>Ford</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -29,13 +29,13 @@
         <div class="footer-container">
             <img src="{{$settings->footer_image}}"/>
         </div>
-            <div style="position: fixed;width:100%"> 
-                <div class="slider-container" style="z-index: 9; position: relative; width:100%">
-                    @foreach($slider as $image)
-                        <div><img src="{{$image->image}}" style="width:100%"/></div>
-                    @endforeach
-                </div>
+            <div> 
+            <div class="slider-container" style="z-index: 9; position: relative; height: 100%">
+                @foreach($slider as $image)
+                    <div><img src="{{$image->image}}" style="height: 100vh; width: 100vw;object-fit: cover;"/></div>
+                @endforeach
             </div>
+</div>
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="slick/slick.min.js"></script>
         <script type="text/javascript" src="main.js"></script>
