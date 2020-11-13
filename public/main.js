@@ -1,13 +1,13 @@
 $(document).ready(function(){
-    $('.slider-container').slick();
+    $('.slider-container').slick({
+        dots: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        pauseOnHover:false,
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        fade: false
+    });
 });
-
-$(function(){
-    setTimeout(myTimer,4000)
-})
-
-function myTimer() {
-    $('.slick-arrow').trigger('click');
-
-    setTimeout(myTimer,4000);
-}
