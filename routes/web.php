@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    $settings = DB::table('settings')->first();
+    $slider = DB::table('slider')->get();
+    $links = DB::table('links')->get();
+    return view('index', ['settings' => $settings, 'slider' => $slider, 'links' => $links]);
 });
 
 
