@@ -1,3 +1,11 @@
+@font-face {
+	font-family: "Ford Antenna";
+	src: url("./fonts/FordAntennaWGL-Bold.otf");
+}
+
+body {
+    font-family: "Ford Antenna";
+}
 .d-grid {
     display: grid;
 }
@@ -20,7 +28,6 @@
 }
 .link-container > p {
     color: #fff;
-    font-weight: bold;
     font-size: 20px;
     text-align: center;
     margin: 0!important;

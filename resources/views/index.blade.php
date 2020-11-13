@@ -17,7 +17,7 @@
     <body class="antialiased m-0">
         <div style="position: absolute;top: 5%;left:0;z-index: 10;flex-direction: column;" class="d-grid justify-content-center w-100">
             <img src="{{$settings->logo}}" class="w-100" style="max-width: 150px;justify-self:center;"/>
-            <p class="text-align-center my-4 blue-text font-weight-bold">{{$settings->username}}</p>
+            <p class="text-align-center my-4 blue-text">{{$settings->username}}</p>
             <div style="margin-bottom: 100px;">
                 @foreach($links as $link)
                 <a href="{{$link->link}}" class="link-container">
@@ -36,7 +36,7 @@
                 @endforeach
             </div>
 </div>
-        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="slick/slick.min.js"></script>
         <script type="text/javascript" src="main.js"></script>
     </body>
