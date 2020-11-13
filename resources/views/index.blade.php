@@ -54,9 +54,9 @@
         <div class="footer-container">
             <img src="footer.png"/>
         </div>
-            <div style="position: fixed;"> 
-            <div class="slider-container" style="z-index: 9; position: relative; height: 100%">
-                <div><img src="{{asset('background-01.png')}}" style="height: 100%; width: 100vw;object-fit: cover;"/></div>
+            <div> 
+            <div class="slider-container" style="z-index: 9; position: fixed; height: 100%">
+                <div><img src="{{asset('background-01.png')}}" style="height: 100vh; width: 100vw;object-fit: cover;"/></div>
                 <div><img src="{{asset('background-01.png')}}" style="height: 100vh; width: 100vw;object-fit: cover;"/></div>
                 <div><img src="{{asset('background-01.png')}}" style="height: 100vh; width: 100vw;object-fit: cover;"/></div>
             </div>
