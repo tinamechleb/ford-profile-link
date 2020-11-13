@@ -13,11 +13,11 @@ body {
     text-align: center;
 }
 .blue-text {
-    color: #000;
+    color: #1c5a99;
     font-size: 19px;
 }
 .link-container {
-    background-color: rgba(211, 131, 70,0.93);
+    background-color: rgba(28, 90, 153,0.93);
     border-radius: 13px;
     width: 80vw;
     padding: 17px 0;
